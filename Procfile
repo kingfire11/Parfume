@@ -1,2 +1,3 @@
-worker: python perfume_bot/bot.py
+worker: python bot.py
+
 
