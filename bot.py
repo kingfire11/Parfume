@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 
 
 async def main():
-    bot = Bot(token=8641711867:AAGPqRoVP-Njvis-yqJEW-g7-Gzp9RI4f4Q)
+    bot = Bot(token=:BOT_TOKEN)
      storage = MemoryStorage()
     dp = Dispatcher(storage=storage)
 
