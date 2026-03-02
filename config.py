@@ -1,11 +1,7 @@
-# Вставь сюда токен своего бота от @BotFather
+import os
 
-BOT_TOKEN = “YOUR_BOT_TOKEN_HERE”
-
-# Минимальный остаток на точке для алерта
+BOT_TOKEN = os.getenv("BOT_TOKEN", "")
 
 LOW_STOCK_THRESHOLD = 10
-
-# Сколько дней без визита — напоминание
-
 VISIT_REMINDER_DAYS = 7
+
