@@ -1,7 +1,7 @@
 import aiosqlite
 from datetime import datetime
 
-DB_PATH = “perfume.db”
+DB_PATH = "perfume.db"
 
 async def init_db():
 async with aiosqlite.connect(DB_PATH) as db:
